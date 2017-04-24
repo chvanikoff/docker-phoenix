@@ -16,7 +16,7 @@ The image should be used as a base one for building your Phoenix app's image/con
 # Example usage
 
 ```
-FROM chvanikoff/phoenix:1.0
+FROM chvanikoff/phoenix
 # Copy our project files to the image
 COPY . /var/app/myapp
 WORKDIR /var/app/myapp
